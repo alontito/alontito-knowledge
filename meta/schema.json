@@ -1,0 +1,14 @@
+{
+  "version": 1,
+  "lesson": {
+    "id": "uuid4",
+    "author": "sha256(agent_install_id)[:16]",
+    "ts": "ISO-8601 UTC",
+    "domain": "muscle_legends | general | other",
+    "kind": "lesson | skill | fact",
+    "text": "краткая формулировка урока",
+    "evidence": {"before": 0, "after": 0, "delta_pct": 0, "verdict": "better|worse|noise"},
+    "approved": true
+  },
+  "rules": ["append-only", "no deletion of foreign records", "approved=true required"]
+}
